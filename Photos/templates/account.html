@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Your Email" aria-label="Your email" aria-describedby="basic-addon2">
+  <span class="input-group-text" id="basic-addon2">@example.com</span>
+</div>
+
+<label for="basic-url" class="form-label">Your Name</label>
+<div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon3">John Doe</span>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+
+
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Password" aria-label="Username">
+  <span class="input-group-text">re-enter</span>
+  <input type="text" class="form-control" placeholder="Password" aria-label="Server">
+</div>
+
+<div class="input-group">
+  <span class="input-group-text">Bio</span>
+  <textarea class="form-control" aria-label="With textarea"></textarea>
+</div>
+
+{% endblock %}
